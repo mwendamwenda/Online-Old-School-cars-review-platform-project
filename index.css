@@ -1,47 +1,207 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 20px;
-
-}
-html{
-    scroll-behavior: smooth;
-}
-a{
-    text-decoration: none;
-}
-ul{
-    list-style: none;
-}
-
-.navbar{
-    display: flex;
+body{
+    background-color: #FAFAFA;
+    /*margin: 40px 70px 20px 70px; */
+    font-family: 'Space Grotesk';
+  }
+  header{
+    padding: 0px 100px 0px 100px;
+    border-bottom:  ridge 1px rgb(71, 68, 68);
+     
+    overflow: auto;
+  
+  }
+  
+  main{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  #Past{
+    color: #2549D3;
+  }
+  .topnav{
+    display:flex;
+    flex-direction: row;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: start;
     justify-content: space-between;
-    align-items: center;
-    height: 10vh;
-    background-color: #ececec;
-
-}
-.logo{
-    padding-left: 2em;
-}
-.logo-text{
-    font-size: 1.5em;
-
-}
-.menubar{
-    width: 45%;
-    margin-left: 8.5em;
-
-}
-.list{
-    display: flex;
+    padding-bottom: 1%;
+    margin-right: initial;
+    background-color: aqua;
+    
+  }
+  .two{
+    display: block;
     justify-content: space-between;
-
-}
-.list-items a{
+    flex-direction: row;
+    padding-top: 10px;
+    margin-bottom: 30px;
+  
+  }
+  /*Primary Colors: #2549D3, #0F298B, #FAFAFA
+  Font Styles: Space Grotesk, Oleo Script*/
+  .Vintage {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-right: 10%;
+    font-family: 'Oreo Script';
+    color: aquamarine;
+    
+    
+  
+    
+    /*font-size: 200%; */
+    
+  }
+  .Past{
+    color:#2549D3 ;
+    margin-right: 40px;
+    
+    /*font-size: 150%;*/
+  }
+  .present{
+    
+    margin-right: 40px;
     color: black;
-    font-family: sans-serif;
-    font-size: 0.9em;
-}
+    
+  }
+   #land:hover{
+    background-color: aqua;
+    padding: 10%;
+  } 
+  a{
+   
+    text-decoration: solid;
+    color: black;
+  }
+  .home a{
+    color: #0F298B;
+  }
+  .land a{
+    margin-right: 40px;
+    
+  }
+  .get a{
+    
+    background-color: #2549D3;
+    color: whitesmoke;
+    margin-right: 5%;
+    margin-left: 2%;
+    font-size-adjust: 20px;
+  }
+  .agent{
+    margin-right: 40px;
+   
+  }
+  .contact{
+    margin-right: 40px;
+   
+  }
+  .get{
+    margin-left: 10%;
+  }
+  
+  #creating{
+    font-size: 40px;
+    font-weight: 200;
+    
+  }
+   .two h2{
+    color: #2549D3;
+    font-size: 70px;
+    text-align: left;
+    
+  }
+  
+ 
+  main{
+    margin-top: 0%;
+  }
+  #img1{
+    float: right;
+    margin-top: 82px;
+    
+  }
+
+   
+  
+  #learn{
+    margin-top: 100px;
+  }
+  h2{
+    color:#0F298B ;
+  }
+  .middle{
+    text-align: center;
+  }
+  .icons{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 4%;
+    padding: auto;
+  }
+  #h2{
+    margin-top: 20px;
+    font-weight: 800;
+  }
+  .find{
+    padding: 1%;
+    background-color: white;
+    margin: 0px 40px 0px 40px;
+  
+  }
+  .official{
+    padding: 1%;
+    background-color: white;
+    margin: 0px 40px 0px 40px;
+  
+  } 
+  
+  
+  .img2{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    clear:right;
+    margin-bottom: 50px;
+  }
+  
+  
+
+  span{
+    color: #2549D3;
+    text-align: right;
+  }
+  
+
+  a:hover{
+    background-color: red;
+    padding: 2%;
+  }
+  footer{
+    background-color: #0F298B;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-around;
+    color: whitesmoke;
+  }
+  
+  #buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  button{
+    height: 120px;
+    width: 170px;
+    color: white;
+    border-radius: 50px;
+    background-color: #2549D3;
+    font-weight: 800;
+    font-size: 150%;
+  }
