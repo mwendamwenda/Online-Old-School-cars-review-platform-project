@@ -190,18 +190,4 @@ body{
     color: whitesmoke;
   }
   
-  #buttons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
   
-  button{
-    height: 120px;
-    width: 170px;
-    color: white;
-    border-radius: 50px;
-    background-color: #2549D3;
-    font-weight: 800;
-    font-size: 150%;
-  }
