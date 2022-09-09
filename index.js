@@ -130,9 +130,11 @@ function validiteForm(){
 
 //clear error/success message
  function clearMessage(){
+
     for(let i = 0; i < erroNodes.length; i++){
             erroNodes[i].innerTxt = "";
     }
+    success.innerTxt = "";
     nameInput.classList.remove("error-border");
     email.classList.remove("error-border");
     message.classList.remove("error-border");
