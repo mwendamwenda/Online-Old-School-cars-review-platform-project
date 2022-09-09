@@ -8,6 +8,7 @@
 img{
   max-width: 100%;
   height: auto;
+  text-align: center;
 }
 .sleeks-title{
   text-align: center;
@@ -21,9 +22,21 @@ img{
 .car-photo{
   max-width: 40%;
   height: auto;
+  text-align: center;
+  margin: 3rem;
+  border-radius: 50px;
+  flood-color: aqua;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 40%;
 }
 .descript{
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  font-weight: lighter;
+
 }
 .prices{
   text-align: center;
