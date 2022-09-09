@@ -105,13 +105,26 @@ function validiteForm(){
 
         clearMessage();
 
+            let errorFlag = false;
+
     if(nameInput.value.length < 1){
         erroNodes[0].innerTxt = "Name cannot be blank";
         nameInput.classList.add("error-border");
+        errorFlag = true;
     }
     if(emailIsValid(email.value)){
-        erroNodes[0].innerTxt = "Invalid email address";
+        erroNodes[1].innerTxt = "Invalid email address";
         email.classList.add("error-border");
+        errorFlag = true;
+    }
+    if(message.value.length < 1){
+        erroNodes[2].innerTxt = "Please enter message";
+        message.classList.add("error-border");
+        errorFlag = true;
+    }
+
+    if(!errorFlag){
+        success.innerTxt = "Success!";
     }
 }
 
@@ -121,6 +134,8 @@ function validiteForm(){
             erroNodes[i].innerTxt = "";
     }
     nameInput.classList.remove("error-border");
+    email.classList.remove("error-border");
+    message.classList.remove("error-border");
 }
 function emailIsValid(email){
     let pattern = /\s+@\s+\.\s+/;
