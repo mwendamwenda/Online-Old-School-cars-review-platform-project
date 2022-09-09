@@ -93,7 +93,14 @@ ${carsData.map(cartemplate).join('')}
 <p class="footer"> These ${carsData.length} were added recently keep comimg back for more updates.</p>
 `
 
+//get data
+const nameInput = document.querySelector("#name");
+const email = document.querySelector("#email");
+const message = document.querySelector("#message");
+const success = document.querySelector("#uccess");
+const erroNodes = document.querySelectorAll(".error");
+
 //validate data
 function validiteForm(){
-
+    console.log("hello master")
 }
