@@ -64,28 +64,29 @@ const carsData = [
 
   },
   {
-      "image":"image9" ,
-      "tittle":"https://cdn.luxe.digital/media/2021/11/26104827/best-classic-cars-vintage-Bugatti-Type-57-Atlantic-1938-old-luxe-digital%402x.jpg.webp",
+      "image":"https://cdn.luxe.digital/media/2021/11/26104827/best-classic-cars-vintage-Bugatti-Type-57-Atlantic-1938-old-luxe-digital%402x.jpg.webp" ,
+      "tittle":"Bugatti Type 57 Atlantic 1938",
       "description": "Thought an older Bugatti might be more budget-friendly than a recent model? Think again. You need no better proof that the 1938 Bugatti Type 57 Atlantic will ever go out of fashion than by the knowledge that Ralph Lauren owns the very last one to ever be produced. First created as an entirely new design by Jean Bugatti, there were only ever 710 of these models produced. ",
       "price": "9,99"
 
   }
 ]
 
-document.getElementById("sleeks").innerHTML = `
 
-<h1 class="sleeks-title">cars(${carsData.length} results)</h1>
-${carsData.map(function(car){
-
+function cartemplate(car){
   return `
   <div class="machines">
     <img class="car-photo" src="${car.image}">
-    <h2>${car.tittle} (${car.price})</h2>
-    <h3>${car.description}</h3>
+    <h2 class="tittles">${car.tittle} <span class="prices">(${car.price})</span></h2>
+    <h3 class="descript">${car.description}</h3>
   </div>
   `
+}
 
-}).join('')}
+document.getElementById("sleeks").innerHTML = `
+
+<h1 class="sleeks-title">cars(${carsData.length} results)</h1>
+${carsData.map(cartemplate).join('')}
 
 <p class="footer"> these ${carsData.length} were added recently keep comimg back for more updates.</p>
 `

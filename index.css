@@ -15,8 +15,19 @@ img{
 }
 .footer{
   text-align: center;
+  text-rendering: geometricPrecision;
+
 }
 .car-photo{
-  max-width: 50%;
+  max-width: 40%;
   height: auto;
+}
+.descript{
+  text-align: center;
+}
+.prices{
+  text-align: center;
+}
+.tittles{
+  text-align: center;
 }
