@@ -102,7 +102,7 @@ const erroNodes = document.querySelectorAll(".error");
 
 //validate data
 function validiteForm(){
-    
+
         clearMessage();
 
     if(nameInput.value.length < 1){
@@ -112,6 +112,8 @@ function validiteForm(){
 }
 
 //clear error/success message
-clearMessage(){
+ function clearMessage(){
+    for(let i = 0; i < erroNodes.length; i++){
 
+    }
 }
