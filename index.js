@@ -92,3 +92,8 @@ ${carsData.map(cartemplate).join('')}
 
 <p class="footer"> These ${carsData.length} were added recently keep comimg back for more updates.</p>
 `
+
+//validate data
+function validiteForm(){
+
+}
