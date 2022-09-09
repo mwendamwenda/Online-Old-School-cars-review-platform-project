@@ -16,3 +16,7 @@ img{
 .footer{
   text-align: center;
 }
+.car-photo{
+  max-width: 50%;
+  height: auto;
+}
