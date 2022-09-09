@@ -1,4 +1,4 @@
-fetch('db.json').then(function(response){
+fetch('Data/db.json').then(function(response){
 
   return response.json();
 
@@ -9,5 +9,6 @@ fetch('db.json').then(function(response){
 }).catch(function(error){
 
   console.log('Something went wrong with retrieving the db!');
-  
+
 })
+document.getElementById("cars").innerHTML = 'vintage sleeks'
