@@ -160,7 +160,7 @@ textarea::-webkit-scrollbar-thumb{
   background-color: blueviolet;
 }
 .centre{
-  text-align: center;
+  text-align: right;
 }
 input[type="submit"]{
   margin: 30px;

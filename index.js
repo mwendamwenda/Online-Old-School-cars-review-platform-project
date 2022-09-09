@@ -102,5 +102,16 @@ const erroNodes = document.querySelectorAll(".error");
 
 //validate data
 function validiteForm(){
-    console.log("hello master")
+    
+        clearMessage();
+
+    if(nameInput.value.length < 1){
+        erroNodes[0].innerTxt = "Name cannot be blank";
+        nameInput.classList.add("error-border");
+    }
+}
+
+//clear error/success message
+clearMessage(){
+
 }
