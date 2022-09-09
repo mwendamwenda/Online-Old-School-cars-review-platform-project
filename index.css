@@ -16,7 +16,9 @@ img{
 }
 .footer{
   text-align: center;
-  text-rendering: geometricPrecision;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  font-weight: bolder;
 
 }
 .car-photo{
@@ -43,4 +45,40 @@ img{
 }
 .tittles{
   text-align: center;
+}
+.vallie{
+  font-family: "Courgette", cursive;
+  font-weight: 600;
+  margin-right: 10%;
+  font-family: 'Oreo Script';
+  
+  
+
+  
+  /*font-size: 200%; */
+  
+}
+.home{
+  color:#2549D3 ;
+  margin-right: 40px;
+  
+  /*font-size: 150%;*/
+}
+.rent{
+    
+  margin-right: 40px;
+  color: black;
+  
+}
+#land:hover{
+  background-color: aqua;
+  padding: 10%;
+} 
+.agent{
+  margin-right: 40px;
+ 
+}
+.contact{
+  margin-right: 40px;
+ 
 }

@@ -90,5 +90,5 @@ document.getElementById("sleeks").innerHTML = `
 <h1 class="sleeks-title">cars(${carsData.length} results)</h1>
 ${carsData.map(cartemplate).join('')}
 
-<p class="footer"> these ${carsData.length} were added recently keep comimg back for more updates.</p>
+<p class="footer"> These ${carsData.length} were added recently keep comimg back for more updates.</p>
 `
