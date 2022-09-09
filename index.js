@@ -109,11 +109,20 @@ function validiteForm(){
         erroNodes[0].innerTxt = "Name cannot be blank";
         nameInput.classList.add("error-border");
     }
+    if(emailIsValid(email.value)){
+        erroNodes[0].innerTxt = "Invalid email address";
+        email.classList.add("error-border");
+    }
 }
 
 //clear error/success message
  function clearMessage(){
     for(let i = 0; i < erroNodes.length; i++){
-
+            erroNodes[i].innerTxt = "";
     }
+    nameInput.classList.remove("error-border");
+}
+function emailIsValid(email){
+    let pattern = /\s+@\s+\.\s+/;
+    return pattern.test(email);
 }
